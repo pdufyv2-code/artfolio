@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Art Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Quicksand:wght@300;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="hero">
+        <div class="overlay"></div>
+        <h1 class="title">Art Portfolio</h1>
+        <p class="subtitle">• underneath the orange skies. •</p>
+    </header>
+
+    <nav class="navbar">
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+  <section id="about" class="about-section">
+        <h2> - About Me - </h2>
+        <p>
+            I'm Aki, an artist and graphics designer based in MNL, PH.
+        </p>
+    </section>
+  
+    <section id="gallery" class="gallery-section">
+        <h2>Graphics Poster</h2>
+        <div class="gallery-grid">
+            <div class="art-item"><img src="https://static.wixstatic.com/media/55bbb0_e44fd53acad74d5083227226dddc46da~mv2.png/v1/fill/w_636,h_636,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/55bbb0_e44fd53acad74d5083227226dddc46da~mv2.png" alt=""><p>TO: i hope ur ok</p></div>
+            <div class="art-item"><img src="https://static.wixstatic.com/media/55bbb0_42454c5d02754ab1a6c30ff366a25e99~mv2.png/v1/fill/w_450,h_636,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/55bbb0_42454c5d02754ab1a6c30ff366a25e99~mv2.png" alt=""><p>Eyes Never Lie</p></div>
+            <div class="art-item"><img src="https://static.wixstatic.com/media/55bbb0_c8446c1cabd2470187e48303eca34c71~mv2.png/v1/fill/w_636,h_636,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/55bbb0_c8446c1cabd2470187e48303eca34c71~mv2.png" alt=""><p>Like That</p></div>
+          <div class="art-item"><img src="https://static.wixstatic.com/media/55bbb0_c16c2664707840e18d6bc43f883250dd~mv2.png/v1/fill/w_450,h_636,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/55bbb0_c16c2664707840e18d6bc43f883250dd~mv2.png" alt=""><p>WANTED: Hanni Pham</p></div>
+            <div class="art-item"><img src="https://static.wixstatic.com/media/55bbb0_0e45258924614ce084b2d6eb7b92af10~mv2.png/v1/fill/w_636,h_636,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/55bbb0_0e45258924614ce084b2d6eb7b92af10~mv2.png" alt=""><p>Rise Together</p></div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your name" required />
+            <input type="email" id="email" placeholder="Your email" required />
+            <textarea id="message" placeholder="Write your message..." required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <p id="formStatus"></p>
+    </section>
+
+    <footer>
+        <p>© 2025 k.dlndn. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
